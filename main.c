@@ -127,6 +127,7 @@ int main(int argc, char** argv)
     if(payload.stage1_len > 0x700)
     {
         ERROR("shellcode too large");
+        return -1;
     }
     
     if(useRecovery)
