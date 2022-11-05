@@ -1,4 +1,8 @@
 
 .DS_Store
 t8015_boot
-d22/19H12/t8015_shellcode_arm64_verbose.bin
+d22/priv/
+d22/20A392/
+d22/20B79/
+exploit/rom
+exploit/asm/*.bin
